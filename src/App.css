@@ -1,0 +1,33 @@
+body {
+  color: white;
+  min-width: 98vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+.card {
+  margin-top: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 0 15px 0 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
