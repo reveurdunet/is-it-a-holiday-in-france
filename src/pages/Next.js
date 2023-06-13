@@ -18,7 +18,7 @@ function LessDateAndMonth(date, actual) {
 
 async function getDay(dates) {
   const list = []
-  const actual = new Date(2023, 0, 1)
+  const actual = new Date()
   let date_object;
   for (let day in dates) {
     date_object = new Date(day)

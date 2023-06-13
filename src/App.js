@@ -11,7 +11,7 @@ function compareDateAndMonth (date, actual) {
 }
 
 function getDay(dates) {
-  const actual = new Date(2023, 0, 1)
+  const actual = new Date()
   let date_object;
   for (let day in dates)
   {
